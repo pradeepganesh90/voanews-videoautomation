@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<New_Client>
+    <common>
+        <dummy>dummy</dummy>
+        <newbutton>
+            <classname>drawertaskbar-newbutton-text</classname>
+            <xpath></xpath>
+        </newbutton>
+        
+        
+        <incident>
+            <classname>ci-incident</classname>
+            <xpath></xpath>
+        </incident>
+        
+        
+        <newincident>
+            <classname>ci-new-incident</classname>
+            <xpath></xpath>
+        </newincident>
+        
+        
+         <affecteduser>
+            <name>RequestedWorkItem</name>
+            <xpath></xpath>
+        </affecteduser>
+        
+        
+         <title>
+            <name>Title</name>
+            <xpath></xpath>
+        </title>
+        
+         <apply>
+            <classname>fa-pencil</classname>
+            <xpath></xpath>
+        </apply>
+        
+        
+           <cancel>
+            <classname>fa-times</classname>
+            <xpath></xpath>
+        </cancel>
+        
+          <statuslink>
+            <classname>link</classname>
+            <xpath></xpath>
+        </statuslink>
+        
+        
+          <save>
+            <classname>fa-check</classname>
+            <xpath></xpath>
+        </save>
+        
+          <message>
+            <classname>alert-success</classname>
+            <xpath></xpath>
+        </message>
+        
+         <navhoverbar>
+            <classname>nav_hover</classname>
+            <xpath></xpath>
+        </navhoverbar>
+       
+       
+       
+    </common>
+
+
+    <csp>
+        <dummy>dummy</dummy>
+
+    </csp>
+
+   
+
+
+</New_Client>

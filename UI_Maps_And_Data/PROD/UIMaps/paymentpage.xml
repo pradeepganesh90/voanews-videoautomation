@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+    <common>
+        <dummy>dummy</dummy>
+              
+       <cardno>
+			<id>cardNumber</id>
+			<classname></classname>
+		</cardno>
+		
+		 <securitycode>
+			<id>securityCode</id>
+			<classname></classname>
+		</securitycode>
+		
+		 <cardname>
+			<id>nameOnCard</id>
+			<classname></classname>
+		</cardname>
+		
+		<expdate>
+			<id>cardExpDate</id>
+			<classname></classname>
+		</expdate>
+		
+		
+		
+		<verifypaymentpage>
+			<id>cardNumber</id>
+			<classname></classname>
+		</verifypaymentpage>
+       
+    </common>
+
+
+    <csp>
+		<dummy>dummy</dummy>
+	</csp>
+   
+
+
+</New_Client>

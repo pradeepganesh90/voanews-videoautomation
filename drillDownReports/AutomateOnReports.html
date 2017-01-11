@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<title>AutomateOn Report</title>
+<head>
+    <script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="bootstrap-select.js"></script>
+    <script type="text/javascript" src="JSON-drilldownReport.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap-select.css">
+    <script
+            src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <link
+            href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+            rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet"
+          href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+
+
+    <script language="javascript">
+        $(document).ready(function () {
+
+            parseJson();
+        });
+    </script>
+
+</head>
+<body>
+<div class="container-fluid">
+    <table border="0" id="mainTable" cellspacing="0" cellpadding="0"
+           width="95%" style="margin-left: 10px; margin-top: 12px;">
+        <tr>
+            <td>
+                <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td><img style="padding-center: 15px; width: 75px" src="main-logo.png"></td>
+                        <!-- <td><img style="pedding-center: 15px;" src="logo_automate_on.png"></td>  -->
+
+                    </tr>
+                    <tr>
+
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+    <table border="0" id="infoTable" cellspacing="0" cellpadding="0"
+           width="95%" style="margin-left: 20px; margin-top: 12px;">
+        <tr>
+            <td width="100%">
+                <table border="1" width="100%" style="margin-left: 10px;"
+                       0
+                " cellpadding="0">
+        <tr>
+            <div id="TestSuiteName" class="largeHdr" style="margin-top: 5px;"></div>
+        </tr>
+    </table>
+    </td>
+
+    </tr>
+    </table>
+
+    <hr>
+
+    <table border="0" id="infoTable" cellspacing="0" cellpadding="0"
+           width="95%" style="margin-left: 20px; margin-top: 12px;">
+        <tr>
+            <td width="30%">
+                <table border="1" width="100%" style="margin-left: 10px;"
+                       0
+                " cellpadding="0">
+                <!-- <tr>
+                    <div id="TestSuiteName" class="largeHdr" style="margin-top: 5px;"></div>
+                </tr> -->
+        <tr>
+            <div id="TestDateTime" class="smallHdr" style="margin-top: 5px;">
+                <b>Start Time : </b>
+            </div>
+        </tr>
+        <tr>
+            <div id="TestEndTime" class="smallHdr" style="margin-top: 5px;">
+                <b>End Time : </b>
+            </div>
+        </tr>
+        <tr>
+            <div id="Duration" class="smallHdr" style="margin-top: 5px;">
+                <b>Duration : </b>
+            </div>
+        </tr>
+        
+        <tr>
+            <div id="Environment" class="smallHdr" style="margin-top: 5px;">
+                <b>Test Executed In : </b>
+            </div>
+        </tr>
+
+
+    </table>
+    </td>
+    <td>
+        <table border="1" width="100%">
+            <tr>
+                <h1 class="grey" id="totalTest" align="center"></h1>
+                <h4 class="grey" style="font-weight: bold;" align="center">
+                    <span class="glyphicon glyphicon-record"></span> Total Tests
+                </h4>
+
+            </tr>
+        </table>
+    </td>
+    <td>
+        <table border="1" width="100%">
+            <tr>
+                <h1 class="grey" id="uniqBrowser" align="center"></h1>
+                <h4 class="grey" id="browserHeading" style="font-weight: bold;" align="center">
+                    <span class="glyphicon glyphicon-globe"></span>
+                </h4>
+
+            </tr>
+        </table>
+
+    </td>
+
+    <td>
+        <table border="1" width="100%">
+            <tr>
+                <h1 class="failed" id="totalFailed" align="center"></h1>
+                <h4 class="failed" style="font-weight: bold;" align="center">
+                    <span class="glyphicon glyphicon-remove-circle"></span> Total
+                    Failed
+                </h4>
+
+            </tr>
+        </table>
+
+    </td>
+
+    <td>
+        <table border="1" width="100%">
+            <tr>
+                <h1 class="passed" id="totalPassed" align="center"></h1>
+                <h4 class="passed" style="font-weight: bold;" align="center">
+                    <span class="glyphicon glyphicon-ok-circle"></span> Total Passed
+                </h4>
+
+            </tr>
+        </table>
+
+    </td>
+	<td>
+        <table border="1" width="100%">
+            <tr>
+                <h1 class="skipped" id="totalSkipped" align="center"></h1>
+                <h4 class="skipped" style="font-weight: bold;" align="center">
+                    <span class="glyphicon glyphicon-ok-circle"></span> Total Skipped
+                </h4>
+
+            </tr>
+        </table>
+
+    </td>
+    </tr>
+    </table>
+
+
+    <table border="0" width="98%">
+
+        <tr>
+            <td>
+                <table id="summaryTable" class="table-striped table-bordered"
+                       style="margin-left: 20px; margin-top: 12px;" width="95%">
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+    <table border="0" width="98%">
+        <tr>
+            <td>
+                <table border="0" id="dropDownTable" class="table-striped "
+                       style="margin-left: 20px; margin-top: 12px;" width="95%">
+                    <tr align="center">
+                        <td width="25%"><b>Select TestCase Status</b></td>
+						<td width="25%"><b>Select Class Name</b></td>
+                        <td width="25%"><b>Select Test Case</b></td>
+                        <td width="25%"><b>Select Browser</b></td>
+
+                    </tr>
+                    <tr align="center">
+                        <td width="25%"><select name="status" id="dpstatus"
+                                                style="width: 250px;" class="selectpicker"
+                                                onchange="populateTestCase(),populateClassName(),displayTestCaseDetail()">
+                        </select></td>
+						<td width="25%"><select name="dpclassname" id="dpclassname"
+                                                style="width: 250px;"
+                                                onchange="displayClassDetail() , populateBrowser() ,populateSelectedTestCase()"
+                                                class="selectpicker">
+                        </select></td>
+                        <td width="25%"><select name="testcase" id="dptestcase"
+                                                style="width: 250px;"
+                                                onchange="populateBrowser(), displayTestCaseDetail()"
+                                                class="selectpicker">
+                        </select></td>
+                        <td width="25%"><select name="broswer" id="dpbroswer"
+                                                style="width: 250px;" onchange="displayTestCaseDetail() ,populateSelectedTestCase()"
+                                                class="selectpicker">
+                        </select></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table id="mainTable" border="0" width="98%">
+        <tr>
+            <td>
+
+                <table id="collapseTable"
+                       style="margin-left: 20px; margin-top: 12px;" width="95%">
+                    <tr>
+                        <td id="collapseContentHere"></td>
+                    </tr>
+                </table>
+
+
+            </td>
+        </tr>
+    </table>
+</div>
+<footer class="footer">
+    <div class="container-fluid">
+        <p class="text-muted pull-left plr10">2015 © Softcrylic, LLC - All Right Reserved</p>
+
+        <p class="text-muted pull-right plr10">Report Generated By: Automate-On</p>
+    </div>
+</footer>
+
+</body>
+</html>

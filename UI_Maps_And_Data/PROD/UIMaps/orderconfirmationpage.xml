@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+    <common>
+        <dummy>dummy</dummy>
+              
+       <verifyorder>
+			<id>order_confirmation</id>
+			<classname></classname>
+		</verifyorder>
+       
+    </common>
+
+
+    
+   <csp>
+		<dummy>dummy</dummy>
+	</csp>
+
+
+</New_Client>

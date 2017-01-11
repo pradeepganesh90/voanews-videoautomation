@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomeReports>
+    <ReportTestSuite>
+        <TestSuiteName>VOANEWS_TestAutomation</TestSuiteName>
+        <Environment>local</Environment>
+        <ExecutionType>parallel</ExecutionType>
+        <TestDateTime>Wed Jan 04 17:10:17 IST 2017</TestDateTime>
+        <TestEndTime>Wed Jan 04 17:13:01 IST 2017</TestEndTime>
+        <Duration>0:2:44</Duration>
+        <ReportTestCase TestCaseID="com.BBG_Gov.bbg_govvoanewschrome" TestCase="com.BBG_Gov.bbg_gov" TestCaseStatus="Passed" Browser="chrome" Website="voanews" TestVideoURL="" TestCaseBrowser="com.BBG_Gov.bbg_govchrome" TestCaseWebSite="com.BBG_Gov.bbg_govvoanews" BrowserWebSite="chromevoanews"/>
+    </ReportTestSuite>
+</CustomeReports>

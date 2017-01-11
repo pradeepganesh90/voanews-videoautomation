@@ -1,0 +1,140 @@
+.largeHdr {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+.smallHdr {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.grey {
+    color: #959493;
+}
+
+.failed {
+    color: #AC3E16;
+}
+
+.passed {
+    color: #719F1A;
+}
+
+.summary {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10pt;
+    align: center;
+}
+
+.panel-default > .panel-heading-failed {
+    background-color: #F5F5F5;
+    border-color: #DDDDDD;
+    color: #AC3E16;
+}
+
+.panel-default > .panel-heading-passed {
+    background-color: #F5F5F5;
+    border-color: #DDDDDD;
+    color: #719F1A;
+}
+
+.tableHdr {
+    color: #333333;
+    background-color: #BDBDBD;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.42857;
+}
+
+.substep {
+    color: #333333;
+    background-color: #FAFAFA;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.step {
+    color: #333333;
+    background-color: #F2F2F2;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+body {
+    color: #333333;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.btn-primary {
+    color: #030000;
+    /* background-color: #FAFCFD; */
+    /* border-color: #357ebd; */
+}
+
+.btn {
+    display: inline-block;
+    /* padding: 6px 12px; */
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.modal-dialog {
+    width: 1100px;
+    margin: 30px auto;
+}
+
+.omni-failed-tags {
+    color: #FC0505;
+    /*background-color: #F2F2F2;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.42857;*/
+}
+
+.modal-header {
+    min-height: 16.428571429px;
+    padding: 1px;
+    border-bottom: 1px solid #1B0202;
+}
+
+.btn-default {
+    color: #FFFFFF;
+    background-color: #030303;
+}
+
+.footer {
+    position: absolute;
+    /*  bottom: 0;*/
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F5;
+}
+
+.plr10 {
+    padding: 6px;
+
+}
+
+.cursor-p {
+    cursor: pointer;
+}

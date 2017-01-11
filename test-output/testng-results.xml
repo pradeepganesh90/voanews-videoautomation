@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="VOANEWS_TestAutomation" duration-ms="162714" started-at="2017-01-04T11:40:19Z" finished-at="2017-01-04T11:43:01Z">
+    <groups>
+      <group name="BBG_Gov">
+        <method signature="BBG_Gov.bbg_gov()[pri:0, instance:com.BBG_Gov@2758fe70]" name="bbg_gov" class="com.BBG_Gov"/>
+      </group> <!-- BBG_Gov -->
+    </groups>
+    <test name="VOANEWS_Windows 7" duration-ms="162714" started-at="2017-01-04T11:40:19Z" finished-at="2017-01-04T11:43:01Z">
+      <class name="com.BBG_Gov">
+        <test-method status="PASS" signature="beforeSuiteActivity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.BBG_Gov@2758fe70]" name="beforeSuiteActivity" is-config="true" duration-ms="1971" started-at="2017-01-04T17:10:17Z" finished-at="2017-01-04T17:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[parallel]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[UI_Maps_And_Data]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[AutomationDataSheet.xlsx]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1Zzi8bxZn88tmWVkB1nqBRVsxmiHpVBj99OdMzOvBNvc110]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[lffUFpX8TX107bOx2dYJendVxQYsXpFgDMVdtVFYz42NcRdo110]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[automateon]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[AKIAJVMV3CJQ7K32ZJVA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[7LemK5jQdXTqe//pfPVZHTkPP2Ml3A6DBJ5qrXL6]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[AutomationDataSheet-1.xlsx]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[org.testng.TestRunner@69653e16]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[voanews]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="24">
+              <value is-null="true"/>
+            </param>
+            <param index="25">
+              <value is-null="true"/>
+            </param>
+            <param index="26">
+              <value is-null="true"/>
+            </param>
+            <param index="27">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteActivity -->
+        <test-method status="PASS" signature="beforeTestActivity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.BBG_Gov@2758fe70]" name="beforeTestActivity" is-config="true" duration-ms="2008" started-at="2017-01-04T17:10:19Z" finished-at="2017-01-04T17:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Landscape]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value is-null="true"/>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[1366X675]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[org.testng.TestRunner@69653e16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestActivity -->
+        <test-method status="PASS" signature="bbg_gov()[pri:0, instance:com.BBG_Gov@2758fe70]" name="bbg_gov" duration-ms="157659" started-at="2017-01-04T17:10:21Z" finished-at="2017-01-04T17:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbg_gov -->
+        <test-method status="PASS" signature="afterMethodActivity(org.testng.ITestContext)[pri:0, instance:com.BBG_Gov@2758fe70]" name="afterMethodActivity" is-config="true" duration-ms="3023" started-at="2017-01-04T17:12:58Z" finished-at="2017-01-04T17:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69653e16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodActivity -->
+        <test-method status="PASS" signature="afterClassActivity(org.testng.ITestContext)[pri:0, instance:com.BBG_Gov@2758fe70]" name="afterClassActivity" is-config="true" duration-ms="0" started-at="2017-01-04T17:13:01Z" finished-at="2017-01-04T17:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69653e16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassActivity -->
+        <test-method status="PASS" signature="afterSuiteActivity(org.testng.ITestContext)[pri:0, instance:com.BBG_Gov@2758fe70]" name="afterSuiteActivity" is-config="true" duration-ms="1336" started-at="2017-01-04T17:13:01Z" finished-at="2017-01-04T17:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69653e16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteActivity -->
+      </class> <!-- com.BBG_Gov -->
+    </test> <!-- VOANEWS_Windows 7 -->
+  </suite> <!-- VOANEWS_TestAutomation -->
+</testng-results>

@@ -1,0 +1,271 @@
+<html>
+<head>
+<style>
+table.main {
+    border-radius: 25px;
+   border-width: 15px;
+   border:1px solid #000
+}
+
+tr.jobHeader {
+   background-color:#E2E2E2;
+   font-family:Helvetica,Arial,sans-serif;
+   font-size:25px;
+   font-weight:400;
+   line-height:1.3;
+}
+
+tr.executedBy {
+  font-weight:Bold;
+   font-size:16px;
+  
+}
+
+
+td.testResult {
+    font-family:Helvetica,Arial,sans-serif;
+float:top;
+padding-top:10px;
+font-weight:Bold;
+   font-size:16px;
+  
+}
+
+td.passPercentage {
+  color:green;
+  font-size:400%
+  
+}
+td,tr{
+ font-family:Arial;
+}
+td{
+ white-space: nowrap;}
+
+td.paddingClass{
+  padding-left:20px;
+  
+}
+
+
+</style>
+</head>
+<body>
+	<style><!--
+table.main {
+    border-radius: 25px;
+   border-width: 15px;
+   border:1px solid #000
+}
+
+tr.jobHeader {
+   background-color:#E2E2E2;
+   font-family:Helvetica,Arial,sans-serif;
+   font-size:25px;
+   font-weight:400;
+   line-height:1.3;
+}
+
+tr.executedBy {
+  font-weight:Bold;
+   font-size:16px;
+  
+}
+
+
+td.testResult {
+    font-family:Helvetica,Arial,sans-serif;
+float:top;
+padding-top:10px;
+font-weight:Bold;
+   font-size:16px;
+  
+}
+
+td.passPercentage {
+  color:green;
+  font-size:400%
+  
+}
+td,tr{
+ font-family:Arial;
+}
+td{
+ white-space: nowrap;}
+
+td.paddingClass{
+  padding-left:20px;
+  
+}
+--></style>
+<span>
+<table class="main" width="auto" align="center" cellpadding="2" cellspacing="0" border="0" style="border-radius: 25px; border-width: 15px; border: 1px solid #000;">
+<tbody>
+<tr style="text-align: left; vertical-align: center; font-family: Helvetica,Arial,sans-serif; ">
+<td class="paddingClass" style="width: 60%; margin: 0; color: inherit; font-family: Helvetica,Arial,sans-serif; font-size: 24px; font-weight: 400; line-height: 1.3; margin-bottom: 10px; padding-bottom: 1em; padding-top: 24px; text-align: left; word-wrap: normal; white-space: nowrap; padding-left: 20px;"><span>
+<table >
+<tr>
+<td style="width: 50%; margin: 0; color: inherit; font-family: Helvetica,Arial,sans-serif; font-size: 24px; font-weight: 400; line-height: 1.3; margin-bottom: 10px; text-align: left; word-wrap: normal; white-space: nowrap; ">
+Test Execution Status  
+</td >
+
+</tr>
+</table>
+</span>  </td>
+<td class="paddingClass" style="margin: 0; margin-bottom: 10px; color: inherit; font-family: Helvetica,Arial,sans-serif; font-size: 24px; font-weight: 400; line-height: 1.3; padding-top: 0.3em; text-align: center; word-wrap: normal; white-space: nowrap;"><img src="$$site$$/resources/mail-assets/automate_logo.png" /></td>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; "></tr>
+<tr bgcolor="#E2E2E2" class="jobHeader" style="font-family: Helvetica,Arial,sans-serif; background-color: #e2e2e2; font-size: 25px; font-weight: 400; line-height: 1.3;">
+<td class="paddingClass" colspan="2" style="padding-top: 10px; font-family: Helvetica,Arial,sans-serif;  white-space: nowrap; padding-left: 20px;">$$jobName$$</td>
+</tr>
+<!--<tr  bgcolor="#E2E2E2" style="background-color:#E2E2E2;padding: 0em;font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:1.3;">
+<td colspan="2" style="padding-left:10px">Build Number : $$buildNumber$$</td></tr> -->
+<tr bgcolor="#E2E2E2" class="jobHeader executedBy" style="font-family: Helvetica,Arial,sans-serif; background-color: #e2e2e2; font-size: 16px; font-weight: Bold; line-height: 1.3;">
+<td class="paddingClass" colspan="2" style="padding-bottom: 10px; font-family: Helvetica,Arial,sans-serif;  white-space: nowrap; padding-left: 20px;font-weight: Normal;">Executed By: <span style="display:inline-block;font-weight:100">$$triggeredBy$$</span><br>
+Test Run No: <span style="display:inline-block;font-weight:100"><a href="$$site$$/#/taskexecution?job=$$jobName$$&amp;build=$$buildNumber$$" style="margin: 0; color: #2199e8; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; padding: 0; text-align: center; text-decoration: none;">#$$buildNumber$$</a></span></td>
+</tr>
+
+<tr style="font-family: Helvetica,Arial,sans-serif; "></tr>
+<tr align="top" style="font-family: Helvetica,Arial,sans-serif; ">
+<td width="40%" style="font-family: Helvetica,Arial,sans-serif;  white-space: nowrap;">
+<table align="left">
+<tbody>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td class="testResult paddingClass" style="font-family: Helvetica,Arial,sans-serif; white-space: nowrap; float: top; padding-top: 10px; font-weight: Bold; font-size: 19px; padding-left: 20px;">TEST RESULT :</td>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td class="passPercentage paddingClass" style="font-family: Helvetica,Arial,sans-serif;  white-space: nowrap; color: green; font-size: 400%; padding-left: 20px;">$$passPercentage$$%</td>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td class="paddingClass" style="font-size: 12px; font-weight: 100; font-family: Helvetica,Arial,sans-serif;  white-space: nowrap; padding-left: 20px;">Tests Passed</td>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td class="paddingClass" style="padding-top: 20px; font-family: Helvetica,Arial,sans-serif;  white-space: nowrap; padding-left: 20px;"><a href="$$site$$/#/taskexecution?job=$$jobName$$&amp;build=$$buildNumber$$" style="margin: 0; color: #2199e8; font-family: Helvetica,Arial,sans-serif; font-weight: 400; line-height: 1.3; padding: 0; text-align: left; text-decoration: none;"><img style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 90%; outline: 0; text-decoration: none; width: auto;" src="$$site$$/resources/mail-assets/view-more.PNG" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="font-family: Helvetica,Arial,sans-serif;  white-space: nowrap; float: left;">
+<table width="100%" align="left" style="padding-top: 10px;">
+<tbody>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<th style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<span style="display: inline-block; text-align: center;">
+<table style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<tbody>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td style="font-family: Helvetica,Arial,sans-serif;  padding-left: 10px;float:left;">
+<span style="font-family: Helvetica,Arial,sans-serif; font-size: 18px; font-weight: Bold;text-align:left;">Status:</span>
+</td>
+<td style="float:left;font-family: Helvetica,Arial,sans-serif;padding-top:4px ">
+<span style="font-weight:bold;font-family: Helvetica,Arial,sans-serif; font-size: 16px;color:#808080;text-align:left;">$$jobStatus$$</span>
+</td>
+</tr>
+</tbody>
+</table>
+</span>
+</th>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<th style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<span style="display: inline-block; text-align: center;">
+<table style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<tbody>
+<tr style="font-family: Helvetica,Arial,sans-serif;font-weight:bold; ">
+<td style="font-family: Helvetica,Arial,sans-serif;  padding-left: 10px;">
+<span style="font-family: Helvetica,Arial,sans-serif; font-size: 18px; font-weight: Bold;text-align:left;">Tests:</span>
+</td>
+<td style="font-family: Helvetica,Arial,sans-serif;font-size: 16px;color:#808080 ">
+<span style="font-family: Helvetica,Arial,sans-serif;text-align:left; ">$$total$$ (</span>
+</td>
+<td style="display: inline-block; font-family: Helvetica,Arial,sans-serif; ">
+<span style="color: green; text-align: center;font-size: 16px;">$$passed$$ <img src="$$site$$/resources/mail-assets/tick_symbol.png" /></span>
+</td>
+<td style="display: inline-block; font-family: Helvetica,Arial,sans-serif; padding-left: 5px;">
+<span style="color: red; text-align: center;font-size: 16px;"> $$failed$$ <img src="$$site$$/resources/mail-assets/wrong_mark.png" /></span>
+</td>
+<td style="display: inline-block;font-family: Helvetica,Arial,sans-serif; white-space: nowrap;padding-left: 5px;">
+<span style="float: left;text-align:center; display: inline-block;color:#808080;font-size: 16px;"> $$skipped$$
+<img style=""src="$$site$$/resources/mail-assets/skipped.png"></span>
+</td>
+
+<td style="display: inline-block; font-family: Helvetica,Arial,sans-serif;padding-left: 0px;">
+<span style="display: inline-block;font-size: 16px;color:#808080;text-align:left;float:left;">)</span>
+</td>
+</tr>
+</tbody>
+</table>
+</span>
+</th>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<th style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<span style="display: inline-block; text-align: center;">
+<table style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<tbody>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td style="font-family: Helvetica,Arial,sans-serif;  padding-left: 10px;">
+<span style="font-family: Helvetica,Arial,sans-serif; font-size: 18px;font-weight: Bold;text-align:left;">Environment:</span>
+</td>
+<td style="font-family: Helvetica,Arial,sans-serif; padding-top:4px">
+<span style="font-family: Helvetica,Arial,sans-serif;font-size: 16px;color:#808080;font-weight:bold;text-align:left; ">$$application$$</span>
+</td>
+</tr>
+</tbody>
+</table>
+</span>
+</th>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<th style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<span style="display: inline-block; text-align: center;">
+<table style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<tbody>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td style="font-family: Helvetica,Arial,sans-serif;  padding-left: 10px;">
+<span style="font-family: Helvetica,Arial,sans-serif; font-size: 18px; font-weight: Bold;text-align:left;">Started :</span>
+</td>
+<td style="font-family: Helvetica,Arial,sans-serif;padding-top:4px ">
+<span style="font-family: Helvetica,Arial,sans-serif;font-size: 16px;color:#808080 ;font-weight:bold;text-align:left;padding-top:5px">$$testStartTime$$</span>
+</td>
+</tr>
+</tbody>
+</table>
+</span>
+</th>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<th style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<span style="display: inline-block; text-align: center;">
+<table style="display: inline-block; margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; text-align: left;">
+<tbody>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td style="font-family: Helvetica,Arial,sans-serif;  padding-left: 10px;">
+<span style="font-family: Helvetica,Arial,sans-serif; font-size: 18px; font-weight: Bold;text-align:left;">Duration :</span>
+</td>
+<td style="font-family: Helvetica,Arial,sans-serif;padding-top:4px ">
+<span style="font-family: Helvetica,Arial,sans-serif;font-size: 16px;color:#808080;font-weight:bold; text-align:left;padding-top:4px">$$testDuration$$ (hh:mm:ss)</span>
+</td>
+</tr>
+</tbody>
+</table>
+</span>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="font-family: Helvetica,Arial,sans-serif; ">
+<td style="font-size:14px;padding-left: 20px; font-family: Helvetica,Arial,sans-serif;  white-space: nowrap;" colspan="2"><br /><br />
+<p>Note: This e-mail is sent from an un-monitored e-mail box. So please do not reply to this e-mail.</p>
+</td>
+</tr>
+<tr colspan="2" style="font-family: Helvetica,Arial,sans-serif; ">
+<td colspan="2" style="font-size:14px;padding-left: 20px; padding-bottom: 20px; font-family: Helvetica,Arial,sans-serif;  white-space: nowrap;"><br />Regards<br />Automate-On Team</td>
+</tr>
+</tbody>
+</table>
+</span>
+</body>
+</html>

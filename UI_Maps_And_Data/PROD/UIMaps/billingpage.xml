@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+	<common>
+		<dummy>dummy</dummy>
+
+		<billingfn>
+			<id>address.fullName</id>
+			<classname></classname>
+		</billingfn>
+
+		<billingln>
+			<id>address.lastName</id>
+			<classname></classname>
+		</billingln>
+
+		<billingphone>
+			<id>address.phonePrimary.phoneNumber</id>
+			<classname></classname>
+		</billingphone>
+
+		<billingadd1>
+			<id>address.addressLine1</id>
+			<classname></classname>
+		</billingadd1>
+
+		<billingadd2>
+			<id>address.addressLine2</id>
+			<classname></classname>
+		</billingadd2>
+
+		<billingcity>
+			<id>address.city</id>
+			<classname></classname>
+		</billingcity>
+
+
+		<billingpostal>
+			<id>address.postalCode</id>
+			<classname></classname>
+		</billingpostal>
+
+		<shippingsave>
+			<classname>medium</classname>
+			<id></id>
+		</shippingsave>
+		
+		<billingsave>
+			<classname>input[value='Save Billing']</classname>
+			<id></id>
+		</billingsave>
+
+		<verifybilling>
+			<id>billing_info_form</id>
+			<classname></classname>
+		</verifybilling>
+
+
+	</common>
+
+	<csp>
+		<dummy>dummy</dummy>
+	</csp>
+
+
+
+
+</New_Client>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+    <common>
+        <dummy>dummy</dummy>
+              
+       <cartsize>
+       <id></id>
+       <classname>headerCartItemsCount</classname>
+       </cartsize>
+       
+       <clickcartbutton>
+       <id></id>
+       <classname>headerCartItemsCountWord</classname>
+       </clickcartbutton>
+       
+       
+       
+    </common>
+
+
+    <csp>
+		<dummy>dummy</dummy>
+	</csp>
+   
+
+
+</New_Client>

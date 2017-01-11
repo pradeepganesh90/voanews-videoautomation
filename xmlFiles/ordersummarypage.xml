@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+    <common>
+        <dummy>dummy</dummy>
+              
+        <randomadd>
+			<id>emailAddress</id>
+			<classname></classname>
+		</randomadd>
+       <randomaddnew>
+			<id>customer.emailAddress</id>
+			<classname></classname>
+		</randomaddnew>
+       
+       <verifyordersummary>
+			<classname>order-info</classname>
+				<id></id>
+		</verifyordersummary>
+		
+		 <verifybillingpage>
+			<id>billing_info_form</id>
+			<classname></classname>
+		</verifybillingpage>
+		
+		 <checkoutasguest>
+			<css>input[value='Checkout as Guest']</css>
+			<classname></classname>
+		</checkoutasguest>
+		
+    </common>
+
+<csp>
+		<dummy>dummy</dummy>
+	</csp>
+   
+
+
+</New_Client>

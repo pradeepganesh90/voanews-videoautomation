@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+    <common>
+        <dummy>dummy</dummy>
+              <ListOfproducts>
+			<css>li.product_container img</css>
+			<xpath></xpath>
+		</ListOfproducts>
+       
+       
+    </common>
+
+<csp>
+		<dummy>dummy</dummy>
+	</csp>
+    
+   
+
+
+</New_Client>

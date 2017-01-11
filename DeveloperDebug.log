@@ -1,0 +1,160 @@
+10 Jan 2017 12:56:57,6581    [main] INFO  com.automateOn.main.AutomateOn  - Test Suite start time :Tue Jan 10 12:56:57 IST 2017
+10 Jan 2017 12:56:57,6614    [main] INFO  com.automateOn.main.AutomateOn  - Below are the TestSuite Parameteres from TestNG File
+10 Jan 2017 12:56:57,6614    [main] INFO  com.automateOn.main.AutomateOn  - Testing Type: 
+10 Jan 2017 12:56:57,6614    [main] INFO  com.automateOn.main.AutomateOn  - prod
+10 Jan 2017 12:56:57,6614    [main] INFO  com.automateOn.main.AutomateOn  - Environment: local
+10 Jan 2017 12:56:57,6614    [main] INFO  com.automateOn.main.AutomateOn  - Grid URL : 
+10 Jan 2017 12:56:57,6625    [main] INFO  com.automateOn.main.AutomateOn  - Browserstack URL : null
+10 Jan 2017 12:56:57,6625    [main] INFO  com.automateOn.main.AutomateOn  - Execution Type: parallel
+10 Jan 2017 12:56:57,6625    [main] INFO  com.automateOn.main.AutomateOn  - Report Path: 
+10 Jan 2017 12:56:57,6625    [main] INFO  com.automateOn.main.AutomateOn  - Request Id: 
+10 Jan 2017 12:56:57,6625    [main] INFO  com.automateOn.main.AutomateOn  - TestSuiteName: VOANEWS_TestAutomation
+10 Jan 2017 12:56:57,6625    [main] INFO  com.automateOn.main.AutomateOn  - XML File Path: null
+10 Jan 2017 12:56:57,6636    [main] INFO  com.automateOn.main.AutomateOn  - Capture Image: false
+10 Jan 2017 12:56:57,6647    [main] INFO  com.automateOn.main.AutomateOn  - Test Data File Path: null
+10 Jan 2017 12:56:57,6647    [main] INFO  com.automateOn.main.AutomateOn  - haveOmnitureTestCase: N
+10 Jan 2017 12:56:57,6647    [main] INFO  com.automateOn.main.AutomateOn  - Applitool Api Keys: 1Zzi8bxZn88tmWVkB1nqBRVsxmiHpVBj99OdMzOvBNvc110
+10 Jan 2017 12:56:57,6658    [main] INFO  com.automateOn.main.AutomateOn  - Applitool View Keys: lffUFpX8TX107bOx2dYJendVxQYsXpFgDMVdtVFYz42NcRdo110
+10 Jan 2017 12:56:57,6658    [main] INFO  com.automateOn.main.AutomateOn  - Web Site: voanews
+10 Jan 2017 12:56:57,6658    [main] INFO  com.automateOn.main.AutomateOn  - Internal Web Site: 
+10 Jan 2017 12:56:57,6658    [main] INFO  com.automateOn.main.AutomateOn  - Over Write Retry Results :null
+10 Jan 2017 12:56:57,6669    [main] INFO  com.automateOn.main.AutomateOn  - Highlight click: false
+10 Jan 2017 12:56:57,6669    [main] INFO  com.automateOn.main.AutomateOn  - fail TestOnUIvalidationfailiure: false
+10 Jan 2017 12:56:57,66710   [main] INFO  com.automateOn.main.AutomateOn  - {PATH=C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_111\bin\;C:\Program Files\Java\jre1.8.0_111\bin\;D:\Zookeeper\zookeeper-3.4.9\;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9;c:\Program Files\Git\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Users\pradeep.ganesh\Desktop\geckodriver.exe\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Amazon\AWSCLI\;D:\JavaSoftware\eclipse-jee-mars-2-win32-x86_64\eclipse;, USERDOMAIN_ROAMINGPROFILE=SOFTCRYLICINDIA, LOCALAPPDATA=C:\Users\pradeep.ganesh\AppData\Local, PROCESSOR_LEVEL=6, SYSTEMDRIVE=C:, COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, FP_NO_HOST_CHECK=NO, USERDOMAIN=SOFTCRYLICINDIA, LOGONSERVER=\\SIS00, PROMPT=$P$G, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROGRAMFILES(X86)=C:\Program Files (x86), PROCESSOR_ARCHITECTURE=AMD64, PROGRAMFILES=C:\Program Files, =C:=C:\, APPDATA=C:\Users\pradeep.ganesh\AppData\Roaming, =A:=A:\, PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, PROGRAMW6432=C:\Program Files, PROGRAMDATA=C:\ProgramData, SYSTEMROOT=C:\Windows, USERNAME=pradeep.ganesh, ORG.CERBERUS.ENVIRONMENT=MySQL, USERDNSDOMAIN=SOFTCRYLIC.CO.IN, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMMONPROGRAMW6432=C:\Program Files\Common Files, COMPUTERNAME=SCI-DT-139, COMMONPROGRAMFILES=C:\Program Files\Common Files, COMSPEC=C:\Windows\system32\cmd.exe, PROCESSOR_REVISION=3c03, UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, WINDIR=C:\Windows, =D:=D:\ws-testng\voanews-videoautomation, HOMEPATH=\Users\pradeep.ganesh, TEMP=C:\Users\PRADEE~1.GAN\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\pradeep.ganesh, TMP=C:\Users\PRADEE~1.GAN\AppData\Local\Temp, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=4}
+10 Jan 2017 12:56:57,66912   [main] INFO  com.automateOn.main.AutomateOn  - Jenkins: false
+10 Jan 2017 12:56:57,69134   [main] INFO  com.automateOn.FileSystem.CheckDirectoryExists  - UI_Maps_And_Data Path Exists .... 
+10 Jan 2017 12:56:57,69336   [main] INFO  com.automateOn.FileSystem.CheckDirectoryExists  -  Path doesn't .... 
+10 Jan 2017 12:56:57,69336   [main] INFO  com.automateOn.FileSystem.CheckDirectoryExists  - D:\ws-testng\voanews-videoautomation\. Path Exists .... 
+10 Jan 2017 12:56:57,74184   [main] INFO  com.automateOn.FileSystem.CheckDirectoryExists  - D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps Path Exists .... 
+10 Jan 2017 12:56:57,760103  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : billingpage.xml
+10 Jan 2017 12:56:57,760103  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : dashboardpage.xml
+10 Jan 2017 12:56:57,760103  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : homepage.xml
+10 Jan 2017 12:56:57,801144  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : loginpage.xml
+10 Jan 2017 12:56:57,802145  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : orderconfirmationpage.xml
+10 Jan 2017 12:56:57,802145  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : ordersummarypage.xml
+10 Jan 2017 12:56:57,803146  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : paymentpage.xml
+10 Jan 2017 12:56:57,842185  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : productdetailspage.xml
+10 Jan 2017 12:56:57,843186  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : productlistpage.xml
+10 Jan 2017 12:56:57,843186  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : registerpage.xml
+10 Jan 2017 12:56:57,844187  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\UIMaps : shippingpage.xml
+10 Jan 2017 12:56:57,847190  [main] INFO  com.automateOn.FileSystem.CreateFolder  - xmlFiles : Folder created...
+10 Jan 2017 12:56:58,566909  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site blc doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,567910  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,568911  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,569912  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,570913  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,571914  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,572915  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,575918  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,576919  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,578921  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,579922  [main] INFO  com.automateOn.PageObjectPattern.ElementRepository  - Site csp doesn't have any data it only contain dummy tag
+10 Jan 2017 12:56:58,598941  [main] INFO  com.automateOn.FileSystem.ReportsFolder  - Reports Folder Exists ....
+10 Jan 2017 12:56:58,600943  [main] INFO  com.automateOn.FileSystem.CreateFolder  - VOANEWS_TestAutomation_2017-01-10 12_56 : Folder created...
+10 Jan 2017 12:56:58,600943  [main] INFO  com.automateOn.FileSystem.CreateFolder  - Logs : Folder created...
+10 Jan 2017 12:56:58,610953  [main] INFO  com.automateOn.FileSystem.CreateFolder  - images : Folder created...
+10 Jan 2017 12:56:58,611954  [main] INFO  com.automateOn.FileSystem.CheckDirectoryExists  - D:\ws-testng\voanews-videoautomation\.\drillDownReports Path Exists .... 
+10 Jan 2017 12:56:58,612955  [main] INFO  com.automateOn.FileSystem.CreateFolder  - drillDownReports : Folder created...
+10 Jan 2017 12:56:58,622965  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : AutomateOnReports.html
+10 Jan 2017 12:56:58,622965  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : chrome.png
+10 Jan 2017 12:56:58,623966  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : collapse.js
+10 Jan 2017 12:56:58,623966  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : delta-XML-drilldownReport.js
+10 Jan 2017 12:56:58,633976  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : drilldownReport.js
+10 Jan 2017 12:56:58,633976  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : email-template.html
+10 Jan 2017 12:56:58,633976  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : firefox.png
+10 Jan 2017 12:56:58,634977  [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : icon_camera.png
+10 Jan 2017 12:56:58,6741017 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : icon_video.png
+10 Jan 2017 12:56:58,6741017 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : ie.png
+10 Jan 2017 12:56:58,6741017 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : ipad.png
+10 Jan 2017 12:56:58,6751018 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : JSON-drilldownReport.js
+10 Jan 2017 12:56:58,6751018 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : loadvideo.html
+10 Jan 2017 12:56:58,6761019 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : logo_automate_on.png
+10 Jan 2017 12:56:58,6761019 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : main-Logo.jpg
+10 Jan 2017 12:56:58,6761019 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : main-logo.png
+10 Jan 2017 12:56:58,6771020 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : main.css
+10 Jan 2017 12:56:58,6771020 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : modal.js
+10 Jan 2017 12:56:58,6771020 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : reports.html
+10 Jan 2017 12:56:58,6771020 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : reports.xml
+10 Jan 2017 12:56:58,6781021 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : safari.ico
+10 Jan 2017 12:56:58,6781021 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : safari.png
+10 Jan 2017 12:56:58,6781021 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\.\drillDownReports : test-automation-report.png
+10 Jan 2017 12:56:58,8171160 [main] INFO  com.automateOn.FileSystem.CreateFolder  - test-data : Folder created...
+10 Jan 2017 12:56:58,8181161 [main] INFO  com.automateOn.FileSystem.CreateFolder  - prod : Folder created...
+10 Jan 2017 12:56:58,8181161 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\TestData : AutomationDataSheet.xlsx
+10 Jan 2017 12:56:58,8181161 [main] INFO  com.automateOn.FileSystem.FilesinDirectory  - File exists in Path: D:\ws-testng\voanews-videoautomation\UI_Maps_And_Data\PROD\TestData : ProductNavigation.properties
+10 Jan 2017 12:57:00,7313074 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - Number of Rows in Excel Sheet: 35
+10 Jan 2017 12:57:00,7663109 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - BBG_Gov:[SiteURL=http://www.voanews.com/, UserName=, Password=, AffectedUser=, Title=, VerifyUserName=, VerifyPassword=, FnameBilling=, LnameBilling=, BillingPhno=, BillingAddress1=, BillingAddress2=, BillingCity=, BillingState=, BillingPostalCode=, FnameShipping=, LnameShipping=, ShippingPhno=, ShippingAddress1=, ShippingAddress2=, ShippingCity=, ShippingState=, ShippingPostalCode=, CardType=, CardNo=, SecurityCode=, CardName=, CardDate=, PersonalizeName=, CountOfProducts=, NewUserFirstName=, NewUserLastName=, NewUserPassword=, SearchTerm=]
+10 Jan 2017 12:57:00,7723115 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - Guest_Checkout:[SiteURL=http://demo.broadleafcommerce.org/, UserName=automation.analyst, Password=P@sswordAnalyst1, AffectedUser=Automation Enduser, Title=Test Automation Title, VerifyUserName=automation.enduser, VerifyPassword=P@sswordEnduser1, FnameBilling=Katherine , LnameBilling=Pina, BillingPhno=256-369-6655, BillingAddress1=137,Anna Marczykowski , BillingAddress2=85 Silver St, BillingCity=New Britain, BillingState=CT, BillingPostalCode=06053-3790, FnameShipping=Xavier, LnameShipping=Zion, ShippingPhno=256-369-6655, ShippingAddress1=9 West 57th Street, ShippingAddress2=85 Silver St, ShippingCity=New York , ShippingState=NY, ShippingPostalCode=10019, CardType=Visa, CardNo=4111111111111111, SecurityCode=123, CardName=Xavier Zion, CardDate=08/18, PersonalizeName=AutoTest, CountOfProducts=1, NewUserFirstName=, NewUserLastName=, NewUserPassword=, SearchTerm=]
+10 Jan 2017 12:57:00,7753118 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - RegUser_Checkout:[SiteURL=http://demo.broadleafcommerce.org/, UserName=automation.analyst, Password=P@sswordAnalyst1, AffectedUser=Automation Enduser, Title=Test Automation Title, VerifyUserName=automation.enduser, VerifyPassword=P@sswordEnduser1, FnameBilling=Katherine , LnameBilling=Pina, BillingPhno=256-369-6655, BillingAddress1=137,Anna Marczykowski , BillingAddress2=85 Silver St, BillingCity=New Britain, BillingState=CT, BillingPostalCode=06053-3790, FnameShipping=Xavier, LnameShipping=Zion, ShippingPhno=256-369-6655, ShippingAddress1=9 West 57th Street, ShippingAddress2=85 Silver St, ShippingCity=New York , ShippingState=NY, ShippingPostalCode=10019, CardType=Visa, CardNo=4111111111111111, SecurityCode=123, CardName=Xavier Zion, CardDate=08/18, PersonalizeName=AutoTest, CountOfProducts=4, NewUserFirstName=Xavier, NewUserLastName=Zion, NewUserPassword=test123, SearchTerm=]
+10 Jan 2017 12:57:00,7793122 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - RegUser_CheckoutByClickRegister:[SiteURL=http://demo.broadleafcommerce.org/, UserName=smith@mailinator.com, Password=test123, AffectedUser=Automation Enduser, Title=Test Automation Title, VerifyUserName=automation.enduser, VerifyPassword=P@sswordEnduser1, FnameBilling=Katherine , LnameBilling=Pina, BillingPhno=256-369-6655, BillingAddress1=137,Anna Marczykowski , BillingAddress2=85 Silver St, BillingCity=New Britain, BillingState=CT, BillingPostalCode=06053-3790, FnameShipping=Xavier, LnameShipping=Zion, ShippingPhno=256-369-6655, ShippingAddress1=9 West 57th Street, ShippingAddress2=85 Silver St, ShippingCity=New York , ShippingState=NY, ShippingPostalCode=10019, CardType=Visa, CardNo=4111111111111111, SecurityCode=123, CardName=Xavier Zion, CardDate=08/18, PersonalizeName=AutoTest, CountOfProducts=4, NewUserFirstName=Xavier, NewUserLastName=Zion, NewUserPassword=test123, SearchTerm=]
+10 Jan 2017 12:57:00,7833126 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - BrowseAndAddtoCart:[SiteURL=http://demo.broadleafcommerce.org/, UserName=smith@mailinator.com, Password=test123, AffectedUser=Automation Enduser, Title=Test Automation Title, VerifyUserName=automation.enduser, VerifyPassword=P@sswordEnduser1, FnameBilling=Katherine , LnameBilling=Pina, BillingPhno=256-369-6655, BillingAddress1=137,Anna Marczykowski , BillingAddress2=85 Silver St, BillingCity=New Britain, BillingState=CT, BillingPostalCode=06053-3790, FnameShipping=Xavier, LnameShipping=Zion, ShippingPhno=256-369-6655, ShippingAddress1=9 West 57th Street, ShippingAddress2=85 Silver St, ShippingCity=New York , ShippingState=NY, ShippingPostalCode=10019, CardType=Visa, CardNo=4111111111111111, SecurityCode=123, CardName=Xavier Zion, CardDate=08/18, PersonalizeName=AutoTest, CountOfProducts=4, NewUserFirstName=Xavier, NewUserLastName=Zion, NewUserPassword=test123, SearchTerm=]
+10 Jan 2017 12:57:00,7873130 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - SearchAndAddtoCart:[SiteURL=http://demo.broadleafcommerce.org/, UserName=smith@softcrylic.com, Password=test123, AffectedUser=Automation Enduser, Title=Test Automation Title, VerifyUserName=automation.enduser, VerifyPassword=P@sswordEnduser1, FnameBilling=Katherine , LnameBilling=Pina, BillingPhno=256-369-6655, BillingAddress1=137,Anna Marczykowski , BillingAddress2=85 Silver St, BillingCity=New Britain, BillingState=CT, BillingPostalCode=06053-3790, FnameShipping=Xavier, LnameShipping=Zion, ShippingPhno=256-369-6655, ShippingAddress1=9 West 57th Street, ShippingAddress2=85 Silver St, ShippingCity=New York , ShippingState=NY, ShippingPostalCode=10019, CardType=Visa, CardNo=4111111111111111, SecurityCode=123, CardName=Xavier Zion, CardDate=08/18, PersonalizeName=AutoTest, CountOfProducts=4, NewUserFirstName=Xavier, NewUserLastName=Zion, NewUserPassword=test123, SearchTerm=sauce]
+10 Jan 2017 12:57:00,7923135 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - Register:[SiteURL=http://demo.broadleafcommerce.org/, UserName=smith@mailinator.com, Password=test123, AffectedUser=Automation Enduser, Title=Test Automation Title, VerifyUserName=automation.enduser, VerifyPassword=P@sswordEnduser1, FnameBilling=Katherine , LnameBilling=Pina, BillingPhno=256-369-6655, BillingAddress1=137,Anna Marczykowski , BillingAddress2=85 Silver St, BillingCity=New Britain, BillingState=CT, BillingPostalCode=06053-3790, FnameShipping=Xavier, LnameShipping=Zion, ShippingPhno=256-369-6655, ShippingAddress1=9 West 57th Street, ShippingAddress2=85 Silver St, ShippingCity=New York , ShippingState=NY, ShippingPostalCode=10019, CardType=Visa, CardNo=4111111111111111, SecurityCode=123, CardName=Xavier Zion, CardDate=08/18, PersonalizeName=AutoTest, CountOfProducts=4, NewUserFirstName=Xavier, NewUserLastName=Zion, NewUserPassword=test123, SearchTerm=sauce]
+10 Jan 2017 12:57:00,7963139 [main] INFO  com.automateOn.DataProvider.ImportExcelData  - Login_Logout:[SiteURL=http://demo.broadleafcommerce.org/, UserName=smith@softcrylic.com, Password=test123, AffectedUser=Automation Enduser, Title=Test Automation Title, VerifyUserName=automation.enduser, VerifyPassword=P@sswordEnduser1, FnameBilling=Katherine , LnameBilling=Pina, BillingPhno=256-369-6655, BillingAddress1=137,Anna Marczykowski , BillingAddress2=85 Silver St, BillingCity=New Britain, BillingState=CT, BillingPostalCode=06053-3790, FnameShipping=Xavier, LnameShipping=Zion, ShippingPhno=256-369-6655, ShippingAddress1=9 West 57th Street, ShippingAddress2=85 Silver St, ShippingCity=New York , ShippingState=NY, ShippingPostalCode=10019, CardType=Visa, CardNo=4111111111111111, SecurityCode=123, CardName=Xavier Zion, CardDate=08/18, PersonalizeName=AutoTest, CountOfProducts=4, NewUserFirstName=Xavier, NewUserLastName=Zion, NewUserPassword=test123, SearchTerm=sauce]
+10 Jan 2017 12:57:02,9165259 [TestNG] INFO  com.automateOn.main.AutomateOn  - Below are the TestCase parameters from TestNG File
+10 Jan 2017 12:57:02,9185261 [TestNG] INFO  com.automateOn.main.AutomateOn  - Test Name: VOANEWS_Windows 7
+10 Jan 2017 12:57:02,9195262 [TestNG] INFO  com.automateOn.main.AutomateOn  - Browser: chrome
+10 Jan 2017 12:57:02,9195262 [TestNG] INFO  com.automateOn.main.AutomateOn  - Browser Version: 50
+10 Jan 2017 12:57:02,9205263 [TestNG] INFO  com.automateOn.main.AutomateOn  - OS: Windows 7
+10 Jan 2017 12:57:02,9225265 [TestNG] INFO  com.automateOn.main.AutomateOn  - WebSite: voanews
+10 Jan 2017 12:57:02,9225265 [TestNG] INFO  com.automateOn.main.AutomateOn  - Test Data Name: BBG_Gov
+10 Jan 2017 12:57:02,9235266 [TestNG] INFO  com.automateOn.main.AutomateOn  - Omniture Xml File Name: 
+10 Jan 2017 12:57:02,9235266 [TestNG] INFO  com.automateOn.main.AutomateOn  - Omniture Required: N
+10 Jan 2017 12:57:02,9235266 [TestNG] INFO  com.automateOn.main.AutomateOn  - Device: 
+10 Jan 2017 12:57:02,9245267 [TestNG] INFO  com.automateOn.main.AutomateOn  - Device Orientation: Landscape
+10 Jan 2017 12:57:02,9245267 [TestNG] INFO  com.automateOn.main.AutomateOn  - Device Type: 
+10 Jan 2017 12:57:02,9245267 [TestNG] INFO  com.automateOn.main.AutomateOn  - Appium Port: 
+10 Jan 2017 12:57:02,9255268 [TestNG] INFO  com.automateOn.main.AutomateOn  - App: null
+10 Jan 2017 12:57:02,9275270 [TestNG] INFO  com.automateOn.main.AutomateOn  - WebSite: voanews
+10 Jan 2017 12:57:02,9285271 [TestNG] INFO  com.automateOn.main.AutomateOn  - InternalWebSite: 
+10 Jan 2017 12:57:34,08736430 [TestNG] INFO  com.automateOn.main.StartUpTest  - Capabilities DefinedCapabilities [{browserName=chrome, version=, platform=ANY}]
+10 Jan 2017 12:57:59,88162224 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: a30c45ce-e759-441a-84d2-8c48f22d46c8.png
+10 Jan 2017 12:58:01,48263825 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Video Icon Related Image in the Slider in Home Page." : PASSED
+10 Jan 2017 12:58:13,95576298 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 2f6cc067-48ba-4e23-8ed4-17a6a7ca7c46.png
+10 Jan 2017 12:58:14,02476367 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Pause Button to Pause the Video." : PASSED
+10 Jan 2017 12:58:16,61978962 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 58249a46-8f87-4a91-9228-39fb35a024e5.png
+10 Jan 2017 12:58:16,67279015 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Checked Duration For the Video." : PASSED
+10 Jan 2017 12:58:20,22482567 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 9877d3ad-2fbf-4b60-9de7-aab6f56eb693.png
+10 Jan 2017 12:58:20,26082603 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Play Button is Enabled." : PASSED
+10 Jan 2017 12:58:21,59883941 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 36d55039-161c-4a4d-8a23-2a61e30ee248.png
+10 Jan 2017 12:58:21,62483967 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Skipped Video Duration 10 seconds forward. " : PASSED
+10 Jan 2017 12:58:23,87886221 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 10e1937c-c687-44d4-8f5f-27c4001963fd.png
+10 Jan 2017 12:58:23,94886291 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Play Button to Play the Video." : PASSED
+10 Jan 2017 12:58:40,802103145 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 9a7af7fb-0d86-4d99-9a37-e14ebd78ed68.png
+10 Jan 2017 12:58:40,829103172 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Video in Science and Health Page." : PASSED
+10 Jan 2017 12:58:43,272105615 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 9b32236d-e273-4837-84d7-91d36655bae2.png
+10 Jan 2017 12:58:43,308105651 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Play Button to Play the Video." : PASSED
+10 Jan 2017 12:58:53,755116098 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: c841ac31-9dd5-42e1-bf6f-6ce5a1591430.png
+10 Jan 2017 12:58:53,790116133 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Pause Button to Pause the Video." : PASSED
+10 Jan 2017 12:58:56,249118592 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 008e7df5-9a16-4d2f-98c9-4c7187fc005c.png
+10 Jan 2017 12:58:56,301118644 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Checked Duration For the Video." : PASSED
+10 Jan 2017 12:58:59,769122112 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 25da2460-1ef9-4863-a3aa-228b806e7c24.png
+10 Jan 2017 12:58:59,807122150 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Play Button is Enabled." : PASSED
+10 Jan 2017 12:59:01,270123613 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: a1018bd4-0bba-4b89-8879-d4b9b3bfc134.png
+10 Jan 2017 12:59:01,308123651 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Skipped Video Duration 10 seconds forward. " : PASSED
+10 Jan 2017 12:59:03,724126067 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 0a29d2c0-416e-4655-828f-31be5cfc3817.png
+10 Jan 2017 12:59:03,763126106 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Play Button to Play the Video." : PASSED
+10 Jan 2017 12:59:22,217144560 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 32064d71-1250-457e-8d72-4f703f7a1fb5.png
+10 Jan 2017 12:59:22,249144592 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Video in Silicon Valley And Tech Page." : PASSED
+10 Jan 2017 12:59:26,786149129 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 50edeab2-27b7-41bd-aaf4-55913c4661a9.png
+10 Jan 2017 12:59:26,820149163 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Play Button to Play the Video." : PASSED
+10 Jan 2017 12:59:37,312159655 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 9a501520-1d05-4830-8fba-8d8048241f56.png
+10 Jan 2017 12:59:37,350159693 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Pause Button to Pause the Video." : PASSED
+10 Jan 2017 12:59:39,836162179 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 237d390c-2d83-434c-ba63-8144ac8ef42c.png
+10 Jan 2017 12:59:39,871162214 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Checked Duration For the Video." : PASSED
+10 Jan 2017 12:59:43,337165680 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 3272acb4-1019-4586-8925-8e36a1bd0892.png
+10 Jan 2017 12:59:43,371165714 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Play Button is Enabled." : PASSED
+10 Jan 2017 12:59:44,803167146 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 7d454938-6296-4250-b845-fbf114e17436.png
+10 Jan 2017 12:59:44,838167181 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Skipped Video Duration 10 seconds forward. " : PASSED
+10 Jan 2017 12:59:47,346169689 [TestNG] INFO  com.automateOn.Utilities.ScreenShot  - Image file name: 164427ed-7ea3-4597-99d3-849763609085.png
+10 Jan 2017 12:59:47,381169724 [TestNG] INFO  com.automateOn.AutomateOnReport.exec.AutomateOnReport  - Test Step with Description: "Clicked Play Button to Play the Video." : PASSED
+10 Jan 2017 12:59:55,401177744 [TestNG] INFO  com.automateOn.applitool.Applitools  - Inside the Function Close and Save Diffs: false
+10 Jan 2017 12:59:57,617179960 [TestNG] INFO  com.automateOn.main.AutomateOn  - Test Case Passed: 0
+10 Jan 2017 12:59:57,617179960 [TestNG] INFO  com.automateOn.main.AutomateOn  - Test Case Failed: 0
+10 Jan 2017 12:59:57,617179960 [TestNG] INFO  com.automateOn.main.AutomateOn  - Test Case Skipped: 0
+10 Jan 2017 12:59:57,618179961 [TestNG] INFO  com.automateOn.FileSystem.MoveFile  - DeveloperDebug.log file successfully moved
+10 Jan 2017 12:59:57,648179991 [TestNG] INFO  com.automateOn.applitool.ProcessAplitoolApi  - Session Id to get the Test Steps :null
+10 Jan 2017 13:00:00,955183298 [TestNG] INFO  com.automateOn.applitool.ProcessAplitoolApi  - Rest API out for Applitool :
+10 Jan 2017 13:00:01,286183629 [main] INFO  com.automateOn.FileSystem.MoveFile  - DeveloperDebug.log file successfully moved
+10 Jan 2017 13:00:01,287183630 [main] INFO  com.automateOn.applitool.ProcessAplitoolApi  - Session Id to get the Test Steps :null
+10 Jan 2017 13:00:01,724184067 [main] INFO  com.automateOn.applitool.ProcessAplitoolApi  - Rest API out for Applitool :

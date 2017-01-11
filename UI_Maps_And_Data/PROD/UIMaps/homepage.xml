@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+    <common>
+        <dummy>dummy</dummy>
+              	<Loginlink>
+			<css>a[href$='login'] > span</css>
+			<xpath></xpath>
+		</Loginlink>
+       	<Logoutlink>
+			<css>a[href$='logout'] > span</css>
+			<xpath></xpath>
+		</Logoutlink>
+		<Cartclose>
+			<css>a.modalCloseImg</css>
+			<xpath></xpath>
+		</Cartclose>
+		
+		<SearchInput>
+			<css>input.search</css>
+			<xpath></xpath>
+		</SearchInput>
+		
+		<SearchButton>
+			<css>input#search_button</css>
+			<xpath></xpath>
+		</SearchButton>
+       
+    </common>
+
+
+    <csp>
+		<dummy>dummy</dummy>
+	</csp>
+   
+
+
+</New_Client>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+	<common>
+		<dummy>dummy</dummy>
+
+		<verifyshipping>
+			<id>shipping_info_form</id>
+			<classname></classname>
+		</verifyshipping>
+		
+		<clickshipping>
+			<id>select_shipping</id>
+			<classname></classname>
+		</clickshipping>
+		
+		
+
+	</common>
+
+	<csp>
+		<dummy>dummy</dummy>
+	</csp>
+
+
+
+
+</New_Client>

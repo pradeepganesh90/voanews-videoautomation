@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<New_Client>
+	<common>
+		<dummy>dummy</dummy>
+		<username>
+			<css>input[name='j_username']</css>
+			<xpath></xpath>
+		</username>
+		<password>
+			<css>input[name='j_password']</css>
+			<xpath></xpath>
+		</password>
+		<loginbutton>
+			<css>input.login_button</css>
+			<xpath></xpath>
+		</loginbutton>
+		<loginheader>
+			<classname>login-header</classname>
+			<xpath></xpath>
+		</loginheader>
+	</common>
+
+
+	<blc>
+		<dummy>dummy</dummy>
+
+	</blc>
+
+
+
+
+</New_Client>

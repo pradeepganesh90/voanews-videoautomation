@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomeReports>
+    <ReportTestSuite>
+        <TestSuiteName>Web Application Testing For Triumph Learning</TestSuiteName>
+        <Environment>local</Environment>
+        <ExecutionType>parallel</ExecutionType>
+        <TestDateTime>Fri Feb 20 19:07:25 IST 2015</TestDateTime>
+        <TestEndTime>Fri Feb 20 19:12:21 IST 2015</TestEndTime>
+        <Duration>0:4:56</Duration>
+        <ReportTestCase TestCaseID="StudentDashboardsdbfirefox" TestCase="StudentDashboard" TestCaseStatus="Passed"
+                        Browser="firefox" Website="sdb" TestVideoURL="" TestCaseBrowser="StudentDashboardfirefox"
+                        TestCaseWebSite="StudentDashboardsdb" BrowserWebSite="firefoxsdb"/>
+    </ReportTestSuite>
+</CustomeReports>

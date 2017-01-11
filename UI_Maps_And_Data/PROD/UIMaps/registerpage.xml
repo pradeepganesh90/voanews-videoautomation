@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<New_Client>
+    <common>
+        <dummy>dummy</dummy>
+        <Email>
+			<css>input[id='customer.emailAddress']</css>
+			<xpath></xpath>
+		</Email>
+		
+		<Firstname>
+			<css>input[id='customer.firstName']</css>
+			<xpath></xpath>
+		</Firstname>
+		
+		<LastName>
+			<css>input[id='customer.lastName']</css>
+			<xpath></xpath>
+		</LastName>
+		
+		<Password>
+			<css>input[id='password']</css>
+			<xpath></xpath>
+		</Password>
+		
+		<Confirmpassword>
+			<css>input[id='passwordConfirm']</css>
+			<xpath></xpath>
+		</Confirmpassword>
+       	
+       	<RegisterButton>
+			<css>input.register_button</css>
+			<xpath></xpath>
+		</RegisterButton>
+       
+    </common>
+
+
+    <csp>
+		<dummy>dummy</dummy>
+	</csp>
+   
+
+
+</New_Client>

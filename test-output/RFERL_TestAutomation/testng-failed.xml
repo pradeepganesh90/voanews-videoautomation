@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RFERL_TestAutomation]" parallel="tests">
+  <parameter name="applitoolApiKey" value="1Zzi8bxZn88tmWVkB1nqBRVsxmiHpVBj99OdMzOvBNvc110"/>
+  <parameter name="bucketName" value="automateon"/>
+  <parameter name="automateOnDataImpl" value="Y"/>
+  <parameter name="propertyFile" value=""/>
+  <parameter name="applicationToTest" value="prod"/>
+  <parameter name="appiumWsIpAddress" value=""/>
+  <parameter name="deviceResolution" value="1366X675"/>
+  <parameter name="executionType" value="parallel"/>
+  <parameter name="internalWebSite" value=""/>
+  <parameter name="captureImage" value="true"/>
+  <parameter name="awss3SecretKey" value="7LemK5jQdXTqe//pfPVZHTkPP2Ml3A6DBJ5qrXL6"/>
+  <parameter name="deviceId" value=""/>
+  <parameter name="webSite" value="voanews"/>
+  <parameter name="testDataUIMapsPath" value="UI_Maps_And_Data"/>
+  <parameter name="defaultSheet" value=""/>
+  <parameter name="omniture" value="N"/>
+  <parameter name="osVersion" value=""/>
+  <parameter name="requestId" value=""/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="50"/>
+  <parameter name="uiValidation" value="false"/>
+  <parameter name="omniture_XmlFileName" value=""/>
+  <parameter name="appiumTimeout" value="600"/>
+  <parameter name="awss3key" value="AKIAJVMV3CJQ7K32ZJVA"/>
+  <parameter name="deviceType" value=""/>
+  <parameter name="dataSource_SheetName" value="AutomationDataSheet.xlsx"/>
+  <parameter name="appiumPort" value=""/>
+  <parameter name="os" value="Windows 7"/>
+  <parameter name="reportPath" value=""/>
+  <parameter name="recordVideo" value="true"/>
+  <parameter name="bundleId" value=""/>
+  <parameter name="gridUrl" value=""/>
+  <parameter name="appiumLocation" value=""/>
+  <parameter name="haveOmnitureTestCase" value="N"/>
+  <parameter name="environment" value="local"/>
+  <parameter name="s3TestDataFileName" value="AutomationDataSheet-1.xlsx"/>
+  <parameter name="packageActivity" value=""/>
+  <parameter name="applitoolViewKey" value="lffUFpX8TX107bOx2dYJendVxQYsXpFgDMVdtVFYz42NcRdo110"/>
+  <parameter name="deviceOrientation" value="Landscape"/>
+  <parameter name="testingType" value=""/>
+  <parameter name="device" value=""/>
+  <test name="VOANEWS_Windows 7">
+    <parameter name="deviceType" value=""/>
+    <parameter name="appiumPort" value=""/>
+    <parameter name="os" value="Windows 7"/>
+    <parameter name="appiumWsIpAddress" value=""/>
+    <parameter name="deviceResolution" value="1366X675"/>
+    <parameter name="bundleId" value=""/>
+    <parameter name="appiumLocation" value=""/>
+    <parameter name="deviceId" value=""/>
+    <parameter name="omniture" value="N"/>
+    <parameter name="osVersion" value=""/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="50"/>
+    <parameter name="packageActivity" value=""/>
+    <parameter name="omniture_XmlFileName" value=""/>
+    <parameter name="deviceOrientation" value="Landscape"/>
+    <parameter name="appiumTimeout" value="600"/>
+    <parameter name="device" value=""/>
+    <classes>
+      <class name="com.BBG_Gov">
+        <methods>
+          <include name="bbg_gov"/>
+        </methods>
+      </class> <!-- com.BBG_Gov -->
+    </classes>
+  </test> <!-- VOANEWS_Windows 7 -->
+</suite> <!-- Failed suite [RFERL_TestAutomation] -->
